@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Soni</string>
+
+    <string name="navigation_darwer_open">Open navigation drawer</string>
+    <string name="navigation_darwer_close">Close navigation drawer</string>
+
+    <string-array name="SelectYear">
+        <item>Select Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+</resources>

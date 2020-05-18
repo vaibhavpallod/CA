@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207043741371",
+    "firebase_url": "https://soni-database.firebaseio.com",
+    "project_id": "soni-database",
+    "storage_bucket": "soni-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207043741371:android:f62e6e699460b31cbc4b9e",
+        "android_client_info": {
+          "package_name": "com.example.soni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207043741371-griqcprf8hinvvp3o8c5qvhh1ndtimck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soni",
+            "certificate_hash": "3b5cf91f710943ad48179e1ae67bf84ce455d672"
+          }
+        },
+        {
+          "client_id": "207043741371-103fon4s2jiu7qj3mlu9qk7ujosuu6us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6YFqoRW_5AiHsyt2CNFyYaBfkPjHSf9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207043741371-103fon4s2jiu7qj3mlu9qk7ujosuu6us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

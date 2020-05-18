@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:id="@+id/relativelay"
+    android:scrollbars="vertical"
+    android:isScrollContainer="true"
+    android:nestedScrollingEnabled="true"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/gstnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobilenumber"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="GST"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pannumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gstnumber"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="PAN"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/vatnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pannumber"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="VAT"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/mobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailid"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameid"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nameid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_style"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textSize="20sp" />
+
+        <GridView
+
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/vatnumber"
+            android:layout_marginTop="18dp"
+            android:clickable="true"
+            android:elevation="50dp"
+            android:fadeScrollbars="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:isScrollContainer="false"
+            android:nestedScrollingEnabled="false"
+            >
+
+        </GridView>
+
+        <Button
+            android:id="@+id/saveclient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/gridview"
+            android:layout_gravity="bottom"
+           android:layout_below="@+id/gridview"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="SAVE" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
